@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="icon.png" rel="icon">
+</head>
+<body>
+    <div class="Container">
+        <div class="grid">
+            <input id="display" type="text" placeholder="0"/>
+            <button class="btn" onclick="Calculate('(')">(</button>
+            <button class="btn" onclick="Calculate(')')">)</button>
+            <button class="btn" onclick="Calculate('%')">%</button>
+            <button id="Clear" class="btn" onclick="Clear()">AC</button>
+            <button class="btn" onclick="Calculate(7)">7</button>
+            <button class="btn" onclick="Calculate(8)">8</button>
+            <button class="btn" onclick="Calculate(9)">9</button>
+            <button class="btn" onclick="Calculate('/')">/</button>
+            <button class="btn" onclick="Calculate(4)">4</button>
+            <button class="btn" onclick="Calculate(5)">5</button>
+            <button class="btn" onclick="Calculate(6)">6</button>
+            <button class="btn" onclick="Calculate('*')">*</button>
+            <button class="btn" onclick="Calculate(1)">1</button>
+            <button class="btn" onclick="Calculate(2)">2</button>
+            <button class="btn" onclick="Calculate(3)">3</button>
+            <button class="btn" onclick="Calculate('-')">-</button>
+            <button class="btn" onclick="Calculate('0')">0</button>
+            <button class="btn" onclick="Calculate('.')">.</button>
+            <button id="blue" class="btn" onclick="Enter()">=</button>
+            <button class="btn" onclick="Calculate('+')">+</button>
+        </div>
+    </div>
+
+    <script src="scripts.js">      
+    </script>
+    
+</body>
+
+</html>
